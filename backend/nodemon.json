@@ -1,0 +1,6 @@
+{
+  "ignore": [".git", "node_modules", "dist"],
+  "watch": ["./src", ".env"],
+  "exec": "ts-node -r tsconfig-paths/register --transpile-only ./src/index.ts",
+  "ext": "js,ts,json"
+}
